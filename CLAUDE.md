@@ -111,6 +111,32 @@ The presentation covers:
 - Images and code blocks are fully supported
 - The theme supports both light backgrounds and dark lead slides
 
+## Marp Layout Techniques
+
+### Creating Split Layouts with Full-Width Headers
+When you need a slide with a full-width header and split content below (e.g., 70/30 text/image):
+
+```markdown
+# Full Width Header
+
+<style scoped>
+section { font-size: 22px; }
+h1 { font-size: 42px; margin-bottom: 20px; }
+img { float: right; width: 30%; margin-left: 20px; }
+</style>
+
+![](image.png)
+
+Your text content here...
+```
+
+**Key insights:**
+- Use `<style scoped>` to apply styles only to the current slide
+- Set font sizes directly on `section` for base text size
+- Use `float: right` on images for simple layouts (more reliable than flexbox)
+- Place the image markdown before the text content when using float
+- Avoid complex div structures - Marp works best with simple markdown + CSS
+
 ## Repository Settings
 - **Visibility**: Public repository
 - **GitHub Pages**: Enabled with GitHub Actions as source

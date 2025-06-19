@@ -60,7 +60,46 @@ Learn how to turn ideas into real apps using AI
 - Claude
 - GitHub Copilot
 - ChatGPT
+- V0 by Vercel
 - Other AI assistants
+
+---
+
+# V0: Durango Adventure Maze
+
+<style scoped>
+section { font-size: 22px; }
+h1 { font-size: 42px; margin-bottom: 20px; }
+.right-column { float: right; width: 30%; margin-left: 20px; text-align: center; }
+.right-column img { width: 100%; }
+ul { line-height: 1.3; margin: 0; }
+li { margin-bottom: 5px; }
+</style>
+
+<div class="right-column">
+
+![](durango-maze-screenshot.png)
+
+**Try it:** [v0-new-project-upeckp5jro9.vercel.app](https://v0-new-project-upeckp5jro9.vercel.app/)
+
+![w:120](https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://v0-new-project-upeckp5jro9.vercel.app/)
+
+</div>
+
+**Prompt:**  
+*"Create a small maze game, that has 3 levels... take an inspiration from Durango, CO and name the things and icons in the game associated with town of Durango, CO"*
+
+**Auto-generated features:**
+- 3 themed levels (Downtown, Mesa Verde, Animas River)
+- Full keyboard controls (WASD/arrows)  
+- Collectible artifacts system
+- Red rocks as obstacles
+- Train station as goal
+- Move counter & level progression
+- Responsive design
+- Sound effects & animations
+
+**Creation time:** ~30 seconds → **Fully playable game!**
 
 ---
 
