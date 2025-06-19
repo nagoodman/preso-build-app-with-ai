@@ -2,7 +2,6 @@
 marp: true
 theme: flc-ai-theme
 paginate: true
-backgroundColor: #f8f9fa
 ---
 
 <!-- 
@@ -18,15 +17,34 @@ Fort Lewis College AI Institute
 
 June 24, 2025 | 6:00 - 7:30 PM
 
+![w:150](https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://nagoodman.github.io/preso-build-app-with-ai/)
+
 ---
 
 # Welcome!
 
-Learn how to turn ideas into real apps using AI
+<style scoped>
+section { font-size: 28px; }
+h1 { font-size: 50px; margin-bottom: 30px; }
+img { float: right; width: 30%; margin-left: 20px; border-radius: 10px; }
+ul { line-height: 1.4; margin: 10px 0; }
+li { margin-bottom: 8px; }
+</style>
+
+![](ngoodman_headshot.png)
+
+**Nicholas Goodman**  
+Fort Lewis College AI Institute
+
+CTO at Signify (AI-Powered Compliance)  
+Advisor/investor to 12+ Startups
+
+**Learn how to turn ideas into real apps using AI**
 
 - Speed up prototyping
-- Launch faster with practical tools
+- Launch faster with practical tools  
 - Hands-on demonstrations
+- Real-world examples
 
 ---
 
@@ -36,12 +54,6 @@ Learn how to turn ideas into real apps using AI
 2. Live coding demonstrations
 3. Best practices and tips
 4. Questions and Answers
-
----
-
-# Who Am I?
-
-[Your name and background here]
 
 ---
 
