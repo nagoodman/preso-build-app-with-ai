@@ -21,18 +21,23 @@ This repository contains the presentation materials for a workshop on building a
 ### Project Structure
 ```
 preso-build-app-with-ai/
-├── slides.md           # Main presentation content in Marp markdown format
-├── flc-ai-theme.css    # Custom theme matching Fort Lewis College AI Institute branding
-├── Makefile           # Build automation commands
-├── package.json       # Node.js dependencies (local marp-cli)
-├── .gitignore         # Git ignore rules
+├── slides/                 # Presentation source files
+│   ├── slides.md          # Main presentation content in Marp markdown format
+│   ├── flc-ai-theme.css   # Custom theme matching Fort Lewis College AI Institute branding
+│   ├── package.json       # Node.js dependencies (local marp-cli)
+│   ├── package-lock.json  # NPM lock file
+│   └── node_modules/      # NPM dependencies
+├── Makefile               # Build automation commands (in root)
+├── README.md              # Project documentation with GitHub Pages link
+├── CLAUDE.md              # This file - project context
+├── .gitignore             # Git ignore rules
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml # GitHub Actions workflow for automatic deployment
-└── dist/              # Build output directory (git-ignored)
-    ├── index.html     # Generated HTML presentation
-    ├── slides.pdf     # Generated PDF version
-    └── flc-ai-theme.css # Theme file for deployment
+│       └── deploy.yml     # GitHub Actions workflow for automatic deployment
+└── dist/                  # Build output directory (git-ignored)
+    ├── index.html         # Generated HTML presentation
+    ├── slides.pdf         # Generated PDF version
+    └── flc-ai-theme.css   # Theme file for deployment
 ```
 
 ## Make Commands
@@ -64,10 +69,13 @@ The `flc-ai-theme.css` implements a custom Marp theme with:
 
 ### Local Development
 ```bash
+# Install dependencies (first time only)
+cd slides && npm install && cd ..
+
 # Start live preview server
 make preview
 
-# Make edits to slides.md
+# Make edits to slides/slides.md
 # Preview updates automatically
 
 # Build for production

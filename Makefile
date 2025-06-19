@@ -13,15 +13,15 @@ preview:
 	@echo "Starting Marp preview server..."
 	@echo "Open http://localhost:8080 in your browser"
 	@echo "Press Ctrl+C to stop"
-	npx @marp-team/marp-cli -s -w --theme-set flc-ai-theme.css -I .
+	cd slides && npx @marp-team/marp-cli -s -w --theme-set flc-ai-theme.css -I .
 
 # Build HTML and PDF outputs
 build:
 	@echo "Building presentation..."
 	@mkdir -p dist
-	npx @marp-team/marp-cli slides.md --theme-set flc-ai-theme.css -o dist/index.html
-	npx @marp-team/marp-cli slides.md --theme-set flc-ai-theme.css --pdf -o dist/slides.pdf
-	@cp flc-ai-theme.css dist/
+	cd slides && npx @marp-team/marp-cli slides.md --theme-set flc-ai-theme.css -o ../dist/index.html
+	cd slides && npx @marp-team/marp-cli slides.md --theme-set flc-ai-theme.css --pdf -o ../dist/slides.pdf
+	@cp slides/flc-ai-theme.css dist/
 	@echo "Build complete! Files in dist/"
 
 # Clean generated files
