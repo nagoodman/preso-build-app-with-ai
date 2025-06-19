@@ -1,0 +1,15 @@
+{
+  "name": "preso-build-app-with-ai",
+  "version": "1.0.0",
+  "description": "presentation and resources for June 24 FLC AI Institute Workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.2.0"
+  }
+}
