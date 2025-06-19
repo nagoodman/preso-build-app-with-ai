@@ -99,7 +99,47 @@ li { margin-bottom: 5px; }
 - Responsive design
 - Sound effects & animations
 
-**Creation time:** ~30 seconds → **Fully playable game!**
+**Creation time:** ~30 seconds → **Fully playable game!**  
+**Cost:** $0.06
+
+---
+
+# V0: Unisex Names Dashboard
+
+<style scoped>
+section { font-size: 22px; }
+h1 { font-size: 42px; margin-bottom: 20px; }
+.right-column { float: right; width: 30%; margin-left: 20px; text-align: center; }
+.right-column img { width: 100%; }
+ul { line-height: 1.3; margin: 0; }
+li { margin-bottom: 5px; }
+</style>
+
+<div class="right-column">
+
+![](unisex_names.png)
+
+**Try it:** [v0-unisex-names.vercel.app](https://v0-unisex-names.vercel.app/)
+
+![w:120](https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://v0-unisex-names.vercel.app/)
+
+</div>
+
+**Prompt:**  
+*"Build a dashboard style app with flexible nice grids, with at least 2 or three interactive inputs (dials, selectors, ranges, whatever you choose) that displays 3-4 interesting visualizations for the unisex data."*
+
+**Auto-generated features:**
+- Interactive year range selector (1880-2022)
+- Name popularity threshold slider
+- Gender balance filter
+- Line chart showing trends over time
+- Bar chart for top names by decade
+- Scatter plot for gender distribution
+- Responsive grid layout
+- Real-time data filtering
+
+**Creation time:** ~3 minutes (with two follow-ups) → **Full dashboard!**  
+**Cost:** $0.24
 
 ---
 
