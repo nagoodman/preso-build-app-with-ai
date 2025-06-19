@@ -22,6 +22,11 @@ build:
 	cd slides && npx @marp-team/marp-cli slides.md --theme-set flc-ai-theme.css -o ../dist/index.html
 	cd slides && npx @marp-team/marp-cli slides.md --theme-set flc-ai-theme.css --pdf -o ../dist/slides.pdf
 	@cp slides/flc-ai-theme.css dist/
+	@cp slides/*.png dist/ 2>/dev/null || true
+	@cp slides/*.jpg dist/ 2>/dev/null || true
+	@cp slides/*.jpeg dist/ 2>/dev/null || true
+	@cp slides/*.gif dist/ 2>/dev/null || true
+	@cp slides/*.svg dist/ 2>/dev/null || true
 	@echo "Build complete! Files in dist/"
 
 # Clean generated files

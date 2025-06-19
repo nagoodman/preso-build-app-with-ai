@@ -37,6 +37,11 @@ jobs:
           marp slides.md --theme-set flc-ai-theme.css --pdf -o ../dist/slides.pdf
           cd ..
           cp slides/flc-ai-theme.css dist/
+          cp slides/*.png dist/ 2>/dev/null || true
+          cp slides/*.jpg dist/ 2>/dev/null || true
+          cp slides/*.jpeg dist/ 2>/dev/null || true
+          cp slides/*.gif dist/ 2>/dev/null || true
+          cp slides/*.svg dist/ 2>/dev/null || true
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
