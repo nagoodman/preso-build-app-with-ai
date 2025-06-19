@@ -163,6 +163,41 @@ li { margin-bottom: 5px; }
 
 ---
 
+# Expo Go: Wigga What
+
+<style scoped>
+section { font-size: 22px; }
+h1 { font-size: 42px; margin-bottom: 20px; }
+.right-column { float: right; width: 30%; margin-left: 20px; text-align: center; }
+.right-column img { width: 100%; }
+ul { line-height: 1.3; margin: 0; }
+li { margin-bottom: 5px; }
+</style>
+
+<div class="right-column">
+
+![](wigga-what-app.png)
+
+**Try it:** Expo Go App  
+(iOS/Android)
+
+</div>
+
+**Prompt:**  
+*"Create a new expo go app (use context7 for specifics), named wigga-what. For now it just has a three button app that cycles through wigga, what, then wigga-what with a haptic device buzz. Initialize all the boilerplate code, use colors and styles from this site here: https://ai.fortlewis.edu/"*
+
+**Auto-generated features:**
+- Complete Expo project setup
+- State cycling (wigga → what → wigga-what)
+- Haptic feedback on button press
+- FLC AI Institute branding/colors
+- iOS/Android compatible
+
+**Creation time:** ~2 minutes → **Native mobile app!**  
+**Cost:** $0.71
+
+---
+
 # Live Demo
 
 Let's build something together!
