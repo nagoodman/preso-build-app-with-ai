@@ -32,8 +32,8 @@ jobs:
       - name: Build presentation
         run: |
           mkdir -p dist
-          marp --theme-set flc-ai-theme.css slides.md -o dist/index.html
-          marp --theme-set flc-ai-theme.css slides.md -o dist/slides.pdf --pdf
+          marp slides.md --theme-set flc-ai-theme.css -o dist/index.html
+          marp slides.md --theme-set flc-ai-theme.css --pdf -o dist/slides.pdf
           cp flc-ai-theme.css dist/
 
       - name: Setup Pages
