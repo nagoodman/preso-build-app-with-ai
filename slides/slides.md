@@ -26,12 +26,20 @@ June 24, 2025 | 6:00 - 7:30 PM
 <style scoped>
 section { font-size: 28px; }
 h1 { font-size: 50px; margin-bottom: 30px; }
-img { float: right; width: 30%; margin-left: 20px; border-radius: 10px; }
+.right-column { float: right; width: 30%; margin-left: 20px; text-align: center; }
+.right-column img:first-child { width: 100%; border-radius: 10px; margin-bottom: 10px; }
+.right-column img:last-child { width: 60%; }
 ul { line-height: 1.4; margin: 10px 0; }
 li { margin-bottom: 8px; }
 </style>
 
+<div class="right-column">
+
 ![](ngoodman_headshot.png)
+
+![](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.linkedin.com/in/nicholasandrewgoodman)
+
+</div>
 
 **Nicholas Goodman**  
 Fort Lewis College AI Institute
