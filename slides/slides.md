@@ -402,9 +402,13 @@ li { margin-bottom: 5px; }
 
 # AI Assisted Building Apps (cont'd): Website Demo
 
+[https://website-idea-generator.netlify.app/](https://website-idea-generator.netlify.app/)
+
 ---
 
 # AI Assisted Building Apps (cont'd): App Demo 
+
+[https://appideagenerator.com/](https://appideagenerator.com/)
 
 ---
 
