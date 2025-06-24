@@ -47,10 +47,9 @@ Fort Lewis College AI Institute
 CTO at Signify (AI-Powered Compliance)  
 Advisor/investor to 12+ Startups
 
-**Learn how to turn ideas into real apps using AI**
+**What do you want to learn?**
 
-- Speed up prototyping
-- Launch faster with practical tools  
+- Slides/Info
 - Hands-on demonstrations
 - Real-world examples
 
@@ -58,10 +57,38 @@ Advisor/investor to 12+ Startups
 
 # Agenda
 
-1. Introduction to AI-powered development
-2. Live coding demonstrations
-3. Best practices and tips
-4. Questions and Answers
+1. Landscape of Generative AI
+2. AI assisted building apps
+3. Build together (App + Website)
+4. Hands-on Activity 
+5. Wrap and Q&A
+
+---
+
+# The Landscape of Generative AI
+
+![w:100%](genai_overview.webp)
+
+---
+
+# The Landscape of Generative AI (cont'd)
+
+<style scoped>
+.image-container { display: flex; justify-content: space-around; align-items: center; margin-top: 40px; }
+.image-container img { width: 65%; height: auto; }
+.image-container .caption { text-align: center; font-size: 20px; margin-top: 10px; }
+</style>
+
+<div class="image-container">
+  <div>
+    <img src="parrot.png" alt="Stochastic Parrot">
+    <div class="caption">Stochastic Parrots:<br>Pattern matching & repetition</div>
+  </div>
+  <div>
+    <img src="robot_butter_bread.png" alt="Reasoning AI">
+    <div class="caption">Reasoning Systems:<br>Problem-solving & logic</div>
+  </div>
+</div>
 
 ---
 
@@ -85,7 +112,7 @@ Advisor/investor to 12+ Startups
 
 ---
 
-# V0: Durango Adventure Maze
+# Tools We'll Explore (cont'd): V0 Durango Adventure Maze
 
 <style scoped>
 section { font-size: 22px; }
@@ -124,7 +151,7 @@ li { margin-bottom: 5px; }
 
 ---
 
-# V0: Unisex Names Dashboard
+# Tools We'll Explore (cont'd): V0 Unisex Names Dashboard
 
 <style scoped>
 section { font-size: 22px; }
@@ -163,7 +190,7 @@ li { margin-bottom: 5px; }
 
 ---
 
-# Expo Go: Wigga What
+# Tools We'll Explore (cont'd): Expo Go Wigga What
 
 <style scoped>
 section { font-size: 22px; }
@@ -198,13 +225,19 @@ li { margin-bottom: 5px; }
 
 ---
 
-# Live Demo
-
-Let's build something together!
+# Build together (Website) 
 
 ---
 
-# Best Practices
+# Build together (App) 
+
+---
+
+# Hands-on Activity
+
+---
+
+# Wrap and Q&A
 
 1. Clear prompts
 2. Iterative refinement
@@ -213,19 +246,19 @@ Let's build something together!
 
 ---
 
-# Resources
-
-- Slides: [GitHub Pages URL]
-- Code examples: [This repository]
-- Contact: [Your info]
-
----
-
 <!-- _class: lead -->
 
-# Questions?
+# Questions and Answers
 
 Thank you for joining!
 
 The Center for Innovation
 835 Main Ave, Suite 225
+
+---
+
+# Wrap 
+
+- Slides: [GitHub Pages URL]
+- Code examples: [This repository]
+- Contact: [Your info]
