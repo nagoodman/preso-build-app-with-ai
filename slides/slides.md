@@ -450,3 +450,80 @@ The Center for Innovation
 - Slides: [GitHub Pages URL]
 - Code examples: [This repository]
 - Contact: [Your info]
+
+---
+
+# Appendix: MCP (Model Context Protocol)
+
+<style scoped>
+section { font-size: 18px; }
+h1 { font-size: 40px; margin-bottom: 10px; }
+h2 { font-size: 32px; margin-bottom: 15px; }
+.two-columns { display: flex; gap: 40px; }
+.column { flex: 1; }
+.column ul { margin: 5px 0; padding-left: 20px; line-height: 1.2; }
+.column li { margin-bottom: 2px; }
+.column h3 { font-size: 24px; margin: 15px 0 8px 0; font-weight: bold; }
+a { color: #4a90e2; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.mermaid { margin-top: 20px; }
+</style>
+
+<script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true });</script>
+
+<div class="two-columns">
+<div class="column">
+
+## MCP Server Examples
+
+### Official Servers
+- **filesystem** - File operations
+- **github** - GitHub API access
+- **google-drive** - Google Drive integration
+- **postgres** - PostgreSQL databases
+- **sqlite** - SQLite databases
+- **slack** - Slack messaging
+- **puppeteer** - Browser automation
+- **fetch** - HTTP requests
+
+### Community Servers
+- **supabase** - Supabase backend
+- **figma** - Figma design files
+- **notion** - Notion workspace
+- **linear** - Linear issue tracking
+- **obsidian** - Obsidian notes
+- **spotify** - Spotify control
+
+</div>
+
+<div class="column">
+
+## How MCP Enhances AI Coding
+
+<div class="mermaid">
+graph TB
+    AI[AI Assistant<br/>Claude/GPT/etc]
+    MCP[Model Context Protocol]
+    
+    FS[Filesystem]
+    GH[GitHub]
+    DB[Database]
+    API[APIs]
+    IDE[IDE]
+    DESIGN[Design Tools]
+    
+    AI --- MCP
+    MCP --- FS
+    MCP --- GH
+    MCP --- DB
+    MCP --- API
+    MCP --- IDE
+    MCP --- DESIGN
+    
+    style AI fill:#4a90e2,stroke:#1e3a5f,stroke-width:3px,color:#fff
+    style MCP fill:#f39c12,stroke:#1e3a5f,stroke-width:3px,color:#fff
+</div>
+
+</div>
+</div>
