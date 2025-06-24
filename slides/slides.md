@@ -92,7 +92,7 @@ Advisor/investor to 12+ Startups
 
 ---
 
-# Why AI for App Development?
+# AI assisted building apps
 
 - Rapid prototyping
 - Code generation
@@ -102,17 +102,11 @@ Advisor/investor to 12+ Startups
 
 ---
 
-# Tools We'll Explore
-
-- Claude
-- GitHub Copilot
-- ChatGPT
-- V0 by Vercel
-- Other AI assistants
+# AI assisted building apps (cont'd) 
 
 ---
 
-# Tools We'll Explore (cont'd): V0 Durango Adventure Maze
+# Examples : V0 - Durango Adventure Maze
 
 <style scoped>
 section { font-size: 22px; display: block; }
@@ -151,7 +145,7 @@ li { margin-bottom: 5px; }
 
 ---
 
-# Tools We'll Explore (cont'd): V0 Unisex Names Dashboard
+# Examples: V0 - Unisex Names Dashboard
 
 <style scoped>
 section { font-size: 22px; display: block; }
@@ -190,7 +184,7 @@ li { margin-bottom: 5px; }
 
 ---
 
-# Tools We'll Explore (cont'd): Expo Go Wigga What
+# Examples: Roo - Expo Go Wigga What
 
 <style scoped>
 section { font-size: 22px; display: block; }
@@ -225,11 +219,11 @@ li { margin-bottom: 5px; }
 
 ---
 
-# Build together (Website) 
+# AI Assisted Building Apps (cont'd): Website Demo
 
 ---
 
-# Build together (App) 
+# AI Assisted Building Apps (cont'd): App Demo 
 
 ---
 
