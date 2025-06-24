@@ -408,7 +408,16 @@ li { margin-bottom: 5px; }
 
 ---
 
-# Hands-on Activity
+# Hands-on Activity (20min)
+
+1. Go to v0.dev (signup for vercel, free account, verify email)
+
+
+## Choices
+
+1. Download data from https://github.com/fivethirtyeight/data/tree/master and make an interesting application (quiz, analysis, etc)
+1. Create a full website for an invented Durango business (bonus points for humor)
+1. Make a little game (asteroids, maze, centipede, mario bros/lode runner, etc)
 
 ---
 
