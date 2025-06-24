@@ -464,6 +464,30 @@ The Center for Innovation
 
 ---
 
+# Free Community Workshop
+
+<style scoped>
+section { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 { 
+  font-size: 42px; 
+  margin-bottom: 20px;
+}
+img { 
+  max-width: 90%;
+  max-height: 80%;
+  object-fit: contain;
+}
+</style>
+
+![](workshop_flyer.png)
+
+---
+
 # Appendix: MCP (Model Context Protocol)
 
 <style scoped>
