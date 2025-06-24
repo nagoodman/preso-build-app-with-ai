@@ -503,9 +503,21 @@ a:hover { text-decoration: underline; }
 
 <div class="mermaid">
 graph TD
-    A[Idea] --> B[Build]
-    B --> C[Review]
-    C -->|chat in seconds| A
+    A[AI Assistant]
+    B[MCP]
+    C[Files]
+    D[GitHub]
+    E[Database]
+    F[APIs]
+    G[IDE]
+    H[Design]
+    A --> B
+    B --> C
+    B --> D
+    B --> E
+    B --> F
+    B --> G
+    B --> H
 </div>
 
 </div>
