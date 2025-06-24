@@ -423,10 +423,10 @@ li { margin-bottom: 5px; }
 
 # Wrap and Q&A
 
-1. Clear prompts
-2. Iterative refinement
-3. Code review
-4. Security awareness
+1. Thoughts?
+1. Be cautious (don't deploy these without professionals)
+1. Be creative
+1. Questions?
 
 ---
 
