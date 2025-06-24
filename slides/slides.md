@@ -287,6 +287,17 @@ a:hover { text-decoration: underline; }
 
 ---
 
+# AI assisted building apps (cont'd)
+
+## Strategies and Tips
+- Small bite size projects with specific instructions
+- Think of agents like an eager, talented, but slightly naive intern
+- Connection and infrastructure still a PITA
+- Bigger projects experiment with Claude Flow / Task Master
+- MCP is your friend
+
+---
+
 # Examples : V0 - Durango Adventure Maze
 
 <style scoped>
