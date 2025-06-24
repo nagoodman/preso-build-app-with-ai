@@ -502,27 +502,10 @@ a:hover { text-decoration: underline; }
 ## How MCP Enhances AI Coding
 
 <div class="mermaid">
-graph TB
-    AI[AI Assistant<br/>Claude/GPT/etc]
-    MCP[Model Context Protocol]
-    
-    FS[Filesystem]
-    GH[GitHub]
-    DB[Database]
-    API[APIs]
-    IDE[IDE]
-    DESIGN[Design Tools]
-    
-    AI --- MCP
-    MCP --- FS
-    MCP --- GH
-    MCP --- DB
-    MCP --- API
-    MCP --- IDE
-    MCP --- DESIGN
-    
-    style AI fill:#4a90e2,stroke:#1e3a5f,stroke-width:3px,color:#fff
-    style MCP fill:#f39c12,stroke:#1e3a5f,stroke-width:3px,color:#fff
+graph TD
+    A[Idea] --> B[Build]
+    B --> C[Review]
+    C -->|chat in seconds| A
 </div>
 
 </div>
