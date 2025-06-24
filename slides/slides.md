@@ -183,7 +183,11 @@ h2 { font-size: 32px; margin-bottom: 15px; }
 .column h3 { font-size: 24px; margin: 15px 0 8px 0; font-weight: bold; }
 a { color: #4a90e2; text-decoration: none; }
 a:hover { text-decoration: underline; }
+.mermaid { margin-top: 20px; }
 </style>
+
+<script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true });</script>
 
 <div class="two-columns">
 <div class="column">
@@ -194,6 +198,14 @@ a:hover { text-decoration: underline; }
 - Painted door prototypes
 - Should this be built?
 - Generate "living spec" for IT
+
+<div class="mermaid">
+graph TD
+    A[Idea] --> B[Prototype]
+    B --> C{Validate}
+    C -->|Yes| D[Build]
+    C -->|No| A
+</div>
 </div>
 
 <div class="column">

@@ -13,14 +13,14 @@ preview:
 	@echo "Starting Marp preview server..."
 	@echo "Open http://localhost:8080 in your browser"
 	@echo "Press Ctrl+C to stop"
-	cd slides && npx @marp-team/marp-cli -s -w --theme-set flc-ai-theme.css -I .
+	cd slides && npx @marp-team/marp-cli -s -w --theme-set flc-ai-theme.css --html -I .
 
 # Build HTML and PDF outputs
 build:
 	@echo "Building presentation..."
 	@mkdir -p dist
-	cd slides && npx @marp-team/marp-cli slides.md --theme-set flc-ai-theme.css -o ../dist/index.html
-	cd slides && npx @marp-team/marp-cli slides.md --theme-set flc-ai-theme.css --pdf -o ../dist/slides.pdf
+	cd slides && npx @marp-team/marp-cli slides.md --theme-set flc-ai-theme.css --html -o ../dist/index.html
+	cd slides && npx @marp-team/marp-cli slides.md --theme-set flc-ai-theme.css --html --pdf -o ../dist/slides.pdf
 	@cp slides/flc-ai-theme.css dist/
 	@cp slides/*.png dist/ 2>/dev/null || true
 	@cp slides/*.jpg dist/ 2>/dev/null || true
