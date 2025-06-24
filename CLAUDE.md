@@ -137,6 +137,65 @@ Your text content here...
 - Place the image markdown before the text content when using float
 - Avoid complex div structures - Marp works best with simple markdown + CSS
 
+### Mermaid Diagrams Support
+The presentation includes support for Mermaid diagrams:
+
+```markdown
+<script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true });</script>
+
+<div class="mermaid">
+graph TD
+    A[Idea] --> B[Build]
+    B --> C[Review]
+    C -->|chat in seconds| A
+</div>
+```
+
+**Usage notes:**
+- Include the Mermaid script tags once per slide that uses diagrams
+- Wrap diagram code in `<div class="mermaid">` tags
+- Supports various diagram types: flowcharts (graph TD/LR), sequence diagrams, etc.
+- The theme's colors work well with default Mermaid styling
+
+### Advanced Slide Styling Techniques
+
+#### Numbered Lists with Custom Styling
+The agenda slide demonstrates advanced numbered list styling:
+- Custom circular number badges using CSS counters
+- Emoji icons with each item
+- Progress bars and time indicators
+- Color-coded segments
+
+#### Two-Column Layouts
+Several patterns for splitting content:
+1. **Float-based columns** (most reliable):
+   ```css
+   .right-column { float: right; width: 30%; }
+   ```
+2. **Flexbox columns** (for equal splits):
+   ```css
+   .two-columns { display: flex; gap: 40px; }
+   .column { flex: 1; }
+   ```
+
+#### QR Code Integration
+QR codes are generated dynamically using:
+```markdown
+![w:150](https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=YOUR_URL_HERE)
+```
+
+### Special Slide Classes
+- `_class: lead` - Creates a gradient background title slide with white text
+- `_paginate: false` - Disables page numbers on specific slides
+- `section.centered` - Centers all content vertically and horizontally
+
+### Image Sizing and Positioning
+- `![w:100%](image.png)` - Full width image
+- `![w:150](image.png)` - Fixed width of 150px
+- Images within styled divs inherit container constraints
+- Border radius and shadows can be applied via CSS
+
 ## Repository Settings
 - **Visibility**: Public repository
 - **GitHub Pages**: Enabled with GitHub Actions as source
