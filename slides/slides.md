@@ -57,11 +57,88 @@ Advisor/investor to 12+ Startups
 
 # Agenda
 
-1. Landscape of Generative AI
-2. AI assisted building apps
-3. Build together (App + Website)
-4. Hands-on Activity 
-5. Wrap and Q&A
+<style scoped>
+ol { 
+  list-style: none; 
+  padding-left: 0; 
+  counter-reset: item;
+  margin-top: 40px;
+}
+li { 
+  counter-increment: item;
+  margin-bottom: 20px;
+  padding-left: 60px;
+  position: relative;
+  font-size: 26px;
+}
+li::before {
+  content: counter(item);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #4a90e2;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.emoji {
+  margin-right: 10px;
+  font-size: 30px;
+}
+.duration {
+  float: right;
+  color: #999;
+  font-family: monospace;
+  font-size: 14px;
+  letter-spacing: -4px;
+  margin-right: 0;
+}
+.time-label {
+  float: right;
+  color: #4a90e2;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+  font-family: 'Karla', sans-serif;
+}
+.progress-bar {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.progress-segment {
+  float: left;
+  height: 100%;
+}
+</style>
+
+1. <span class="emoji">🌍</span>Landscape of Generative AI<span class="duration">█████</span><span class="time-label">5m</span>
+1. <span class="emoji">🤖</span>AI Assisted Building Apps<span class="duration">██████████</span><span class="time-label">10m</span>
+1. <span class="emoji">✨</span>Examples<span class="duration">██████████</span><span class="time-label">10m</span>
+1. <span class="emoji">🛠️</span>Build Together (App + Website)<span class="duration">████████████████████</span><span class="time-label">20m</span>
+1. <span class="emoji">💻</span>Hands-on Activity<span class="duration">████████████████████</span><span class="time-label">20m</span>
+1. <span class="emoji">💬</span>Wrap and Q&A<span class="duration">██████████</span><span class="time-label">10m</span>
+
+<div class="progress-bar">
+  <div class="progress-segment" style="width: 6.7%; background: #8dd3c7;"></div>
+  <div class="progress-segment" style="width: 13.3%; background: #ffffb3;"></div>
+  <div class="progress-segment" style="width: 13.3%; background: #bebada;"></div>
+  <div class="progress-segment" style="width: 26.7%; background: #fb8072;"></div>
+  <div class="progress-segment" style="width: 26.7%; background: #80b1d3;"></div>
+  <div class="progress-segment" style="width: 13.3%; background: #fdb462;"></div>
+</div>
 
 ---
 
@@ -75,7 +152,8 @@ Advisor/investor to 12+ Startups
 
 <style scoped>
 .image-container { display: flex; justify-content: space-around; align-items: center; margin-top: 40px; }
-.image-container img { width: 65%; height: auto; }
+.image-container > div { display: flex; flex-direction: column; align-items: center; width: 45%; }
+.image-container img { width: 65%; height: auto; display: block; margin: 0 auto; }
 .image-container .caption { text-align: center; font-size: 20px; margin-top: 10px; }
 </style>
 
