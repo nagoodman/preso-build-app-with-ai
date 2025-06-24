@@ -42,6 +42,7 @@ jobs:
           cp slides/*.jpeg dist/ 2>/dev/null || true
           cp slides/*.gif dist/ 2>/dev/null || true
           cp slides/*.svg dist/ 2>/dev/null || true
+          cp slides/*.webp dist/ 2>/dev/null || true
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
