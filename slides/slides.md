@@ -172,11 +172,42 @@ li::before {
 
 # AI assisted building apps
 
-- Rapid prototyping
+<style scoped>
+section { font-size: 18px; }
+h1 { font-size: 40px; margin-bottom: 10px; }
+h2 { font-size: 32px; margin-bottom: 15px; }
+.two-columns { display: flex; gap: 40px; }
+.column { flex: 1; }
+.column ul { margin: 5px 0; padding-left: 20px; line-height: 1.2; }
+.column li { margin-bottom: 2px; }
+.column h3 { font-size: 24px; margin: 15px 0 8px 0; font-weight: bold; }
+a { color: #4a90e2; text-decoration: none; }
+a:hover { text-decoration: underline; }
+</style>
+
+<div class="two-columns">
+<div class="column">
+
+## Rapid prototyping
+
+- Quick screen iterations
+- Painted door prototypes
+- Should this be built?
+- Generate "living spec" for IT
+</div>
+
+<div class="column">
+
+## Applications
+
+- Internal Tools
 - Code generation
-- Debugging assistance
-- Documentation help
-- Testing support
+- Test suite
+- Synthetic data for testing
+- Auto-documentation
+
+</div>
+</div>
 
 ---
 
@@ -204,6 +235,7 @@ a:hover { text-decoration: underline; }
 - Lovable ([https://loveable.dev](https://loveable.dev))
 - Bolt ([https://bolt.new](https://bolt.new))
 - Replit ([https://replit.com](https://replit.com))
+- V0 ([https://v0.dev/](https://v0.dev/))
 - Many more...
 
 ### IDEs
