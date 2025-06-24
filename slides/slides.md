@@ -24,7 +24,7 @@ June 24, 2025 | 6:00 - 7:30 PM
 # Welcome!
 
 <style scoped>
-section { font-size: 28px; }
+section { font-size: 28px; display: block; }
 h1 { font-size: 50px; margin-bottom: 30px; }
 .right-column { float: right; width: 30%; margin-left: 20px; text-align: center; }
 .right-column img:first-child { width: 100%; border-radius: 10px; margin-bottom: 10px; }
@@ -115,7 +115,7 @@ Advisor/investor to 12+ Startups
 # Tools We'll Explore (cont'd): V0 Durango Adventure Maze
 
 <style scoped>
-section { font-size: 22px; }
+section { font-size: 22px; display: block; }
 h1 { font-size: 42px; margin-bottom: 20px; }
 .right-column { float: right; width: 30%; margin-left: 20px; text-align: center; }
 .right-column img { width: 100%; }
@@ -154,7 +154,7 @@ li { margin-bottom: 5px; }
 # Tools We'll Explore (cont'd): V0 Unisex Names Dashboard
 
 <style scoped>
-section { font-size: 22px; }
+section { font-size: 22px; display: block; }
 h1 { font-size: 42px; margin-bottom: 20px; }
 .right-column { float: right; width: 30%; margin-left: 20px; text-align: center; }
 .right-column img { width: 100%; }
@@ -193,7 +193,7 @@ li { margin-bottom: 5px; }
 # Tools We'll Explore (cont'd): Expo Go Wigga What
 
 <style scoped>
-section { font-size: 22px; }
+section { font-size: 22px; display: block; }
 h1 { font-size: 42px; margin-bottom: 20px; }
 .right-column { float: right; width: 30%; margin-left: 20px; text-align: center; }
 .right-column img { width: 100%; }
