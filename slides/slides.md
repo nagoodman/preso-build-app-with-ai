@@ -217,6 +217,16 @@ graph TD
 - Synthetic data for testing
 - Auto-documentation
 
+<div class="mermaid">
+graph TD
+    AI[AI Coding]
+    AI --- A[Internal Tools]
+    AI --- B[Code generation]
+    AI --- C[Test suite]
+    AI --- D[Synthetic data<br/>for testing]
+    AI --- E[Auto-documentation]
+</div>
+
 </div>
 </div>
 
