@@ -201,10 +201,9 @@ a:hover { text-decoration: underline; }
 
 <div class="mermaid">
 graph TD
-    A[Idea] --> B[Prototype]
-    B --> C{Validate}
-    C -->|Yes| D[Build]
-    C -->|No| A
+    A[Idea] --> B[Build]
+    B --> C[Review]
+    C -->|chat in seconds| A
 </div>
 </div>
 
