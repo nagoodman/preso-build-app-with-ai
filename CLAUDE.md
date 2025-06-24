@@ -157,6 +157,7 @@ graph TD
 - Wrap diagram code in `<div class="mermaid">` tags
 - Supports various diagram types: flowcharts (graph TD/LR), sequence diagrams, etc.
 - The theme's colors work well with default Mermaid styling
+- **IMPORTANT**: Avoid empty lines within the Mermaid diagram code block - they can cause syntax errors in Marp
 
 ### Advanced Slide Styling Techniques
 

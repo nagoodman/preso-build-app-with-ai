@@ -502,7 +502,7 @@ a:hover { text-decoration: underline; }
 ## How MCP Enhances AI Coding
 
 <div class="mermaid">
-graph TD
+graph LR
     A[AI Assistant]
     B[MCP]
     C[Files]
