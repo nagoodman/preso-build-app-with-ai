@@ -180,7 +180,57 @@ li::before {
 
 ---
 
-# AI assisted building apps (cont'd) 
+# AI assisted building apps (cont'd)
+
+<style scoped>
+section { font-size: 18px; }
+h1 { font-size: 40px; margin-bottom: 10px; }
+h2 { font-size: 32px; margin-bottom: 15px; }
+.two-columns { display: flex; gap: 40px; }
+.column { flex: 1; }
+.column ul { margin: 5px 0; padding-left: 20px; line-height: 1.2; }
+.column li { margin-bottom: 2px; }
+.column h3 { font-size: 24px; margin: 15px 0 8px 0; font-weight: bold; }
+a { color: #4a90e2; text-decoration: none; }
+a:hover { text-decoration: underline; }
+</style>
+
+## What options are available today?
+
+<div class="two-columns">
+<div class="column">
+
+### No-code / Low-code
+- Lovable ([https://loveable.dev](https://loveable.dev))
+- Bolt ([https://bolt.new](https://bolt.new))
+- Replit ([https://replit.com](https://replit.com))
+- Many more...
+
+### IDEs
+- Cursor ([https://cursor.com](https://cursor.com))
+- Windsurf ([https://windsurf.com](https://windsurf.com))
+- Zed ([https://zed.dev](https://zed.dev))
+- Trae ([https://trae.ai](https://trae.ai))
+- More not listed here...
+
+</div>
+<div class="column">
+
+### VSCode extensions:
+- Github Copilot
+- Cline ([https://cline.bot](https://cline.bot))
+- Roo Code ([https://roocode.com](https://roocode.com))
+- Kilocode ([https://kilocode.ai](https://kilocode.ai))
+- Augment ([https://augmentcode.com](https://augmentcode.com))
+- More not listed here...
+
+### Command line / Terminal tools:
+- Claude Code ([https://www.anthropic.com/claude-code](https://www.anthropic.com/claude-code))
+- OpenAI's Codex ([https://openai.com/codex/](https://openai.com/codex/))
+- Aider ([https://aider.chat](https://aider.chat))
+
+</div>
+</div>
 
 ---
 
