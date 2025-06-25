@@ -16,7 +16,7 @@ _paginate: false
 Fort Lewis College AI Institute
 
 June 24, 2025 | 6:00 - 7:30 PM
-
+[https://nagoodman.github.io/preso-build-app-with-ai/](https://nagoodman.github.io/preso-build-app-with-ai/)
 ![w:150](https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://nagoodman.github.io/preso-build-app-with-ai/)
 
 ---
